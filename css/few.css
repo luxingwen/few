@@ -1,14 +1,25 @@
 
 .few-bg {
 	background-image: url("../images/home-bg.jpg");
+	background-size: 100% 100%;
 }
 
 .few-bg-book {
 	background-image: url('../images/book-bg.jpg');
+	background-size: 100% 100%;
+}
+
+.few-bg-contact {
+	background-image: url('../images/contact-bg.jpg');
+	background-size: 100% 100%;
 }
 
 .few-flex-1 {
 	flex: 1;
+}
+
+.few-home p{
+	font-size: 20px;
 }
 
 .few-watch-item-content {
@@ -69,4 +80,39 @@
 }
 .few-reseach-ul li a{
 	color: white;
+}
+
+.few-contact{
+	position: relative;
+}
+
+
+.few-contact .few-contact-content{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.few-contact .few-contact-us{
+	font-weight: bold;
+	 text-align: center; 
+	 font-size: 80px; 
+	 margin-bottom: 40px;
+}
+
+.few-contact .few-contact-address {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.few-contact .few-contact-address p {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.few-contact .few-contact-address span{
+	font-size: 24px;
 }
